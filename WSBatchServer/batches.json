@@ -1,0 +1,17 @@
+[
+	{
+		"name":"Run Analysis",
+		"description":"Run Analysis Batch. Expects Application name and connectionProfile as Parameters",
+		"fullPath":"C:/CAST/Batches/RunAnalysis.bat"
+	},
+		{
+		"name":"Run Snapshot",
+		"description":"Run Snapshot Batch. Expects Application name and connectionProfile as Parameters",
+		"fullPath":"C:/CAST/Batches/RunSnapshot.bat"
+	},
+	{
+		"name":"MProject.bat",
+		"description":"Script to be executed withing jenkins workflow of job - MProject",
+		"fullPath":"C:/CAST/Batches/scripts/MProject.bat"
+	}
+]

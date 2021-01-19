@@ -1,0 +1,128 @@
+[
+	{
+		"name":"Health Check Report (FP)",
+		"category":"Health Check",
+		"template":"Template_HealthCheckReport_FP_V2.docx",
+		"params": ["Application", "Snapshot"],
+		reportType: 0
+	},
+	{
+		"name":"Assessment Report",
+		"category":"Assessment",
+		"template":"Template_AssessmentReport_V10.docx",
+		"params": ["Application", "Snapshot"],
+		reportType: 0
+	},
+	{
+		"name":"Transaction Statistics",
+		"category":"Assessment",
+		"template":"Template_TransactionStats.xlsx",
+		"params": ["Application", "SnapshotFrom", "SnapshotTo", "EFP_MODE_TECHNICAL_FILTER", "EFP_MODE_DISPLAY_MOD_ART"],
+		reportType: 0
+	},
+	{
+		"name":"Health Check Report (FP)",
+		"category":"Ongoing",
+		"template":"Template_HealthCheckDeltaReport_FP.docx",
+		"params": ["Application", "SnapshotFrom", "SnapshotTo", "EFP_MODE_TECHNICAL_FILTER", "EFP_MODE_DISPLAY_MOD_ART", "BY_METRIC_PARAM"],
+		reportType: 0
+	},
+	{
+		"name":"Assessment Report Delta",
+		"category":"Ongoing",
+		"template":"Template_AssessmentReportDelta.docx",
+		"params": ["Application", "SnapshotFrom", "SnapshotTo", "BY_METRIC_PARAM"],
+		reportType: 0
+	},
+	{
+		"name":"List of Rules Delta",
+		"category":"Ongoing",
+		"template":"Template_ListOfRulesDelta.xslx",
+		"params": ["Application", "SnapshotFrom", "SnapshotTo"],
+		reportType: 0
+	},
+	{
+		"name":"Assessment Spreadsheet",
+		"category":"Ongoing",
+		"template":"Template_DeltaReport.xslx",
+		"params": ["Application", "SnapshotFrom", "SnapshotTo", "EFP_MODE_TECHNICAL_FILTER", "EFP_MODE_DISPLAY_MOD_ART", "BY_METRIC_PARAM"],
+		reportType: 0
+	},
+	{
+		"name":"Investigation Report",
+		"category":"Investigation",
+		"template":"Template_InvestigationReport_V5.docx",
+		"params": ["Application", "Snapshot"],
+		reportType: 0
+	},
+	{
+		"name":"List of Rules",
+		"category":"Investigation",
+		"template":"Template_ListOfRules.xlsx",
+		"params": ["Application", "Snapshot"],
+		reportType: 0
+	},
+	{
+		"name":"Action Plan Report",
+		"category":"Investigation",
+		"template":"Template_ActionPlan.docx",
+		"params": ["Application", "Snapshot"],
+		reportType: 0
+	},
+	{
+		"name":"AFP - Baseline",
+		"category":"Productivity",
+		"template":"Template_Afp.xlsx",
+		"params": ["Application", "Snapshot"],
+		reportType: 0
+	},
+	{
+		"name":"AFP - Breakdowns",
+		"category":"Productivity",
+		"template":"Template_FunctionPointsBreakdowns.xlsx",
+		"params": ["Application", "Snapshot", "BY_METRIC_PARAM"],
+		reportType: 0
+	},
+	{
+		"name":"EFP - Evolution",
+		"category":"Productivity",
+		"template":"Template_Efp.xlsx",
+		"params": ["Application", "SnapshotFrom", "SnapshotTo", "EFP_MODE_TECHNICAL_FILTER", "EFP_MODE_DISPLAY_MOD_ART"],
+		reportType: 0
+	},
+	{
+		"name":"EFP - Breakdowns",
+		"category":"Productivity",
+		"template":"Template_EfpBreakdowns.xlsx",
+		"params": ["Application", "SnapshotFrom", "SnapshotTo", "EFP_MODE_TECHNICAL_FILTER", "EFP_MODE_DISPLAY_MOD_ART"],
+		reportType: 0
+	},
+	{
+		"name":"Productivity Data (Prototype)",
+		"category":"Productivity",
+		"template":"Template_ProductivityData.xlsx",
+		"params": ["Application", "SnapshotFrom", "SnapshotTo"],
+		reportType: 0
+	},
+	{
+		"name":"Function Point Combo Report",
+		"category":"Productivity",
+		"template":"Template_FP_Combo.xlsx",
+		"params": ["Application", "SnapshotFrom", "SnapshotTo", "EFP_MODE_TECHNICAL_FILTER", "EFP_MODE_DISPLAY_MOD_ART"],
+		reportType: 0
+	},
+	{
+		"name":"BluePrint Investigation",
+		"category":"BluePrint Investigation",
+		"template":"Template_BlueprintReport.docx",
+		"params": ["Application", "Snapshot"],
+		reportType: 0
+	},
+	{
+		"name":"Audit Report",
+		"category":"Configuration",
+		"template":"Template_AuditReport.docx",
+		"params": [],
+		reportType: 0
+	}
+]
