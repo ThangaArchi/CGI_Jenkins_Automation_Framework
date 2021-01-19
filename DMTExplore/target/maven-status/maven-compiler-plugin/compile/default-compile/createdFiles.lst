@@ -1,0 +1,9 @@
+com\castsoftware\dmtexplore\XmlData.class
+com\castsoftware\dmtexplore\DmtExplore.class
+com\castsoftware\dmtexplore\data\DeliveryData.class
+com\castsoftware\dmtexplore\DeliveryReport.class
+com\castsoftware\dmtexplore\data\ScanReportData.class
+com\castsoftware\dmtexplore\data\PackageData.class
+com\castsoftware\dmtexplore\util\Constants.class
+com\castsoftware\dmtexplore\util\NoOpEntityResolver.class
+com\castsoftware\dmtexplore\util\OptionsValidation.class
